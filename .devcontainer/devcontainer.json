@@ -1,0 +1,10 @@
+{
+  "name": "ros2-humble",
+  "image": "osrf/ros:humble-desktop",
+  "postCreateCommand": "echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools", "ms-python.python"]
+    }
+  }
+}
